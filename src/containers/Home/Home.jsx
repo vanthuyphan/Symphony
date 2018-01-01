@@ -16,7 +16,7 @@ class Home extends Component {
         return (
             <div>
                 <div style={overlayStyle} className="wrapper wrapper-full-page">
-                    <div className={"full-page"} data-color="orange" data-image={bgImage}>
+                    <div className={"full-page"} data-color="black" data-image={bgImage}>
                         <div className="content">
                             <NavBar className="login-button" />
                             <div className="home-page">

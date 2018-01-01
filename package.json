@@ -1,7 +1,7 @@
 {
-  "name": "TeraDashboard",
+  "name": "BrokerRank",
   "version": "1.0.0",
-  "description": "Tera Nha Dat React Dashboard",
+  "description": "BrokerRank",
   "scripts": {
     "start": "webpack-dev-server --hot --open",
     "package": "webpack --config webpack-pro.config.js --progress --colors",
@@ -20,11 +20,11 @@
     "starter-kit"
   ],
   "author": "Van Phan <vanthuyphan@gmail.com>",
-  "license": "Tera.vn 2017",
+  "license": "Van Phan 2018",
   "bugs": {
     "url": ""
   },
-  "homepage": "teranhdat.vn/dashboard",
+  "homepage": "brokerrank.com",
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-loader": "^7.1.2",

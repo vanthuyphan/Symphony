@@ -23,7 +23,7 @@ class Register extends Component{
         return (
             <div>
                 <div style={overlayStyle} className="wrapper wrapper-full-page">
-                    <div className={"full-page"} data-color="orange" data-image={bgImage}>
+                    <div className={"full-page"} data-color="black" data-image={bgImage}>
                         <div className="content ">
                             <NavBar className="login-button right" />
                             <Grid>
@@ -35,7 +35,7 @@ class Register extends Component{
                                         </div>
                                     </Col>
                                     <Col md={4} mdOffset={2}>
-                                        <Media>
+                                        <Media className="white">
                                             <Media.Left>
                                                 <div className="icon">
                                                     <i className="pe-7s-user"></i>
@@ -48,7 +48,7 @@ class Register extends Component{
                                                 Here you can write a feature description for your dashboard, let the users know what is the value that you give them.
                                             </Media.Body>
                                         </Media>
-                                        <Media>
+                                        <Media className="white">
                                             <Media.Left>
                                                 <div className="icon">
                                                     <i className="pe-7s-graph1"></i>
@@ -61,7 +61,7 @@ class Register extends Component{
                                                 Here you can write a feature description for your dashboard, let the users know what is the value that you give them.
                                             </Media.Body>
                                         </Media>
-                                        <Media>
+                                        <Media className="white">
                                             <Media.Left>
                                                 <div className="icon">
                                                     <i className="pe-7s-headphones"></i>

@@ -45,7 +45,7 @@ class Login extends Component {
         return (
         <div>
             <div style={overlayStyle} className="wrapper wrapper-full-page">
-                <div className={"full-page login-page"} data-color="orange" data-image={bgImage}>
+                <div className={"full-page login-page"} data-color="black" data-image={bgImage}>
                     <div className="content">
                         <Grid>
                             <Row>
